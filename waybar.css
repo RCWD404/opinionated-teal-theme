@@ -1,0 +1,49 @@
+@define-color foreground #F3F4F6;
+@define-color background #111111;
+
+* {
+  padding: 1 0;
+  font-family: "CaskaydiaMono Nerd Font";
+  font-size: 16px;
+}
+
+.modules-left {
+  margin-left: 4px;
+}
+
+.modules-right {
+  margin-right: 4px;
+}
+
+#cpu,
+#memory,
+#temperature,
+#battery,
+#pulseaudio,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-update {
+  margin: 0 9px;
+}
+
+#memory {
+  margin-right: 18px;
+  margin-left: 15px;
+}
+
+#tray {
+  margin-right: 14px;
+}
+
+#bluetooth {
+  margin-right: 20px;
+}
+
+#network {
+  margin-right: 14px;
+}
+
+#custom-expand-icon {
+  margin-right: 14px;
+  margin-left: 14px;
+}

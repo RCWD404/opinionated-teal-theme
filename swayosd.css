@@ -1,0 +1,18 @@
+@define-color background-color #111111;
+@define-color border-color #00D9D7;
+@define-color label #F3F4F6;
+@define-color image #00D9D7;
+@define-color progress #00D9D7;
+
+window {
+  border-radius: 8px;
+}
+
+label {
+  font-family: "CaskaydiaMono Nerd Font";
+  font-size: 14pt;
+}
+
+progressbar {
+  border-radius: 8;
+}

@@ -1,0 +1,78 @@
+# Main background (più profondo per evitare affaticamento visivo)
+theme[main_bg]="#111111"
+
+# Main text color (come testo Alacritty)
+theme[main_fg]="#F3F4F6"
+
+# Title color for boxes (bianco morbido come normal white)
+theme[title]="#E9ECEF"
+
+# Highlight color for keyboard shortcuts (coral caldo, più leggibile su fondo scuro)
+theme[hi_fg]="#FF6B6B"
+
+# Background color of selected items (accent cyan)
+theme[selected_bg]="#00D9D7"
+
+# Foreground color of selected items (deep black del nuovo tema)
+theme[selected_fg]="#111111"
+
+# Color of inactive/disabled text (grigio medio, bright black)
+theme[inactive_fg]="#495057"
+
+# Color of text appearing on top of graphs (bianco puro, bright white)
+theme[graph_text]="#F8F9FA"
+
+# Misc colors for processes box (teal armonico)
+theme[proc_misc]="#4ECDC4"
+
+# Outlines e divider (cyan accent più coerente, teal per differenziare)
+theme[cpu_box]="#00D9D7"
+theme[mem_box]="#00D9D7"
+theme[net_box]="#00D9D7"
+theme[proc_box]="#00D9D7"
+theme[div_line]="#495057"
+
+# Temperature graph colors (verde chiaro -> giallo accent -> coral caldo)
+theme[temp_start]="#69DB7C"
+theme[temp_mid]="#FFD93D"
+theme[temp_end]="#FF6B6B"
+
+# CPU graph colors (gradienti teal/accent/blu)
+theme[cpu_start]="#4ECDC4"
+theme[cpu_mid]="#00D9D7"
+theme[cpu_end]="#74C0FC"
+
+# Mem/Disk free meter (verde chiaro -> teal -> verde profondo come accent Alacritty)
+theme[free_start]="#69DB7C"
+theme[free_mid]="#4ECDC4"
+theme[free_end]="#143614"
+
+# Mem/Disk cached meter (gradienti blu coerenti con la palette)
+theme[cached_start]="#74C0FC"
+theme[cached_mid]="#91A7FF"
+theme[cached_end]="#4A9BD1"
+
+# Mem/Disk available meter (riprende free meter per coerenza visuale)
+theme[available_start]="#69DB7C"
+theme[available_mid]="#4ECDC4"
+theme[available_end]="#143614"
+
+# Mem/Disk used meter (giallo accent -> coral accent -> coral intenso)
+theme[used_start]="#FFD93D"
+theme[used_mid]="#FF8787"
+theme[used_end]="#FF6B6B"
+
+# Download graph colors (blu coerente con Alacritty)
+theme[download_start]="#74C0FC"
+theme[download_mid]="#91A7FF"
+theme[download_end]="#4A9BD1"
+
+# Upload graph colors (magenta/violet dal nuovo tema per pulsanti/attività)
+theme[upload_start]="#DA77F2"
+theme[upload_mid]="#E599F7"
+theme[upload_end]="#AB7DF8"
+
+# Process box color gradient for threads, mem and cpu usage (verde chiaro -> giallo accent -> coral intenso)
+theme[process_start]="#69DB7C"
+theme[process_mid]="#FFD93D"
+theme[process_end]="#FF6B6B"

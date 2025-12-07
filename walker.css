@@ -1,0 +1,10 @@
+@define-color selected-text #00D9D7;
+@define-color text #F3F4F6;
+@define-color base #111111;
+@define-color border #00D9D7;
+@define-color foreground #11221C;
+@define-color background #111111;
+
+box {
+  border-radius: 8px;
+}

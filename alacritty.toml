@@ -1,0 +1,42 @@
+# Tema Alacritty Personalizzato
+
+[colors]
+
+[colors.primary]
+background = '#111111'
+foreground = '#F3F4F6'
+
+[colors.normal]
+black   = "#1a1a1a"
+red     = "#FF6B6B"
+green   = "#4ECDC4"
+yellow  = "#FFD93D"
+blue    = "#4ECDC4"
+magenta = "#DA77F2"
+cyan    = "#00D9D7"
+white   = "#E9ECEF"
+
+[colors.bright]
+black   = "#495057"
+red     = "#FF8787"
+green   = "#69DB7C"
+yellow  = "#FFE066"
+blue    = "#00D9D7"
+magenta = "#E599F7"
+cyan    = "#22E5D2"
+white   = "#F8F9FA"
+
+[colors.cursor]
+text   = "#111111"
+cursor = "#00D9D7"
+
+# VARIANTE ALTERNATIVA CON TONI PIÙ CALDI
+# Per usare questa variante, sostituisci i colori sopra con questi:
+#
+# [colors.normal]
+# red     = "#FF7F50"  # Coral tradizionale
+# yellow  = "#FFA500"  # Arancio vibrante
+#
+# [colors.bright]  
+# red     = "#FF8C69"  # Salmon più morbido
+# yellow  = "#FFB84D"  # Arancio-giallo più caldo
