@@ -2,8 +2,6 @@
 
 RCWD
 
-Test
-
 ## Installation
 
 ```bash
